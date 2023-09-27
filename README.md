@@ -25,6 +25,7 @@ REFLEXSE(ENHANCING CLINICAL NOTE SUMMARIZATION: ITERATIVE REFLEXIONS WITH SMALL-
 Please train the small model first, and then train the main experiment script.
 
 ## cite
+```
 @inproceedings{zhang-etal-2022-cblue,
     title = "{CBLUE}: A {C}hinese Biomedical Language Understanding Evaluation Benchmark",
     author = "Zhang, Ningyu and Chen, Mosha and Bi, Zhen and Liang, Xiaozhuan and Li, Lei and Shang, Xin and Yin, Kangping and Tan, Chuanqi and Xu, Jian and Huang, Fei and Si, Luo and Ni, Yuan and Xie, Guotong and Sui, Zhifang and Chang, Baobao and Zong, Hui and Yuan, Zheng and Li, Linfeng and Yan, Jun and Zan, Hongying and Zhang, Kunli and Tang, Buzhou and Chen, Qingcai",
@@ -54,3 +55,5 @@ Please train the small model first, and then train the main experiment script.
   year={2020},
   url={https://openreview.net/forum?id=SkeHuCVFDr}
 }
+
+```
