@@ -16,7 +16,7 @@ REFLEXSE(ENHANCING CLINICAL NOTE SUMMARIZATION: ITERATIVE REFLEXIONS WITH SMALL-
 `/chinese/cc.py(hpi.py,suggestion.py)` is the script for chinese main experiment.
 
 
-`/english/assessment.py(hpi.pyy)` is the script for chinese main experiment.
+`/english/assessment.py(hpi.py)` is the script for chinese main experiment.
 
 
 
