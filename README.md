@@ -25,4 +25,5 @@ For Chinese:
 Please run chinese/little_model/real_model/ernie-health-chinese/little_model_cc.py(little_model_hpi.py or little_model_suggestion.py) to train the chinese rating model for different chapters.
 
 For English:
+
 Please run english/little_model/asse_model.py(hpi_model.py) to train the english rating model for different chapters.
