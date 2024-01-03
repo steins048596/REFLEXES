@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-
 import os
 import openai
-openai.api_key = "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"
 import csv
 from collections import Counter
 import time
