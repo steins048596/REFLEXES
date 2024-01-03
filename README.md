@@ -1,10 +1,6 @@
-# REFLEXSE
+![image](https://github.com/steins048596/REFLEXSE/assets/133206081/fc42345e-96a1-4acb-bf9c-0496f8f0d0bb)# REFLEXSE
 a framework for clinical text generation
-
-REFLEXSE(ENHANCING CLINICAL NOTE SUMMARIZATION: ITERATIVE REFLEXIONS WITH SMALL-MODEL SUPERVISION AND ERROR2CORRECT DEMONSTRATIONS)
-
 ### folders and files:
-
 
 
 `/data` We provide preprocessed data, from aci-bench and IMCS-V2-MRG.
@@ -24,43 +20,6 @@ REFLEXSE(ENHANCING CLINICAL NOTE SUMMARIZATION: ITERATIVE REFLEXIONS WITH SMALL-
 
 Please train the small model first, and then train the main experiment script.
 
-## cite
-```
-@inproceedings{zhang-etal-2022-cblue,
-    title = "{CBLUE}: A {C}hinese Biomedical Language Understanding Evaluation Benchmark",
-    author = "Zhang, Ningyu and Chen, Mosha and Bi, Zhen and Liang, Xiaozhuan and Li, Lei and Shang, Xin and Yin, Kangping and Tan, Chuanqi and Xu, Jian and Huang, Fei and Si, Luo and Ni, Yuan and Xie, Guotong and Sui, Zhifang and Chang, Baobao and Zong, Hui and Yuan, Zheng and Li, Linfeng and Yan, Jun and Zan, Hongying and Zhang, Kunli and Tang, Buzhou and Chen, Qingcai",
-    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = May,
-    year = "2022",
-    address = "Dublin, Ireland",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.acl-long.544",
-    pages = "7888--7915"
-}
+Please run chinese/little_model/real_model/ernie-health-chinese/little_model_cc.py(little_model_hpi.py/little_model_suggestion.py) to train the chinese rating model for different chapters.
 
-@article{aci-bench,
-  author = {Wen{-}wai Yim and
-                Yujuan Fu and
-                Asma {Ben Abacha} and
-                Neal Snider and Thomas Lin and Meliha Yetisgen},
-  title = {ACI-BENCH: a Novel Ambient Clinical Intelligence Dataset for Benchmarking Automatic Visit Note Generation},
-  journal = {Nature Scientific Data},
-  year = {2023}
-}
-
-@inproceedings{bert-score,
-  title={BERTScore: Evaluating Text Generation with BERT},
-  author={Tianyi Zhang* and Varsha Kishore* and Felix Wu* and Kilian Q. Weinberger and Yoav Artzi},
-  booktitle={International Conference on Learning Representations},
-  year={2020},
-  url={https://openreview.net/forum?id=SkeHuCVFDr}
-}
-
-@article{Beltagy2020Longformer,
-  title={Longformer: The Long-Document Transformer},
-  author={Iz Beltagy and Matthew E. Peters and Arman Cohan},
-  journal={arXiv:2004.05150},
-  year={2020},
-}
-
-```
+Please run chinese/little_model/real_model/ernie-health-chinese/little_model_cc.py(little_model_hpi.py/little_model_suggestion.py) to train the chinese rating model for different chapters.
