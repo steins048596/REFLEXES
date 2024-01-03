@@ -1,4 +1,4 @@
-![image](https://github.com/steins048596/REFLEXSE/assets/133206081/fc42345e-96a1-4acb-bf9c-0496f8f0d0bb)# REFLEXSE
+# REFLEXSE
 a framework for clinical text generation
 ### folders and files:
 
@@ -20,6 +20,8 @@ a framework for clinical text generation
 
 Please train the small model first, and then train the main experiment script.
 
-Please run chinese/little_model/real_model/ernie-health-chinese/little_model_cc.py(little_model_hpi.py/little_model_suggestion.py) to train the chinese rating model for different chapters.
+For Chinese:
+Please run chinese/little_model/real_model/ernie-health-chinese/little_model_cc.py(little_model_hpi.py or little_model_suggestion.py) to train the chinese rating model for different chapters.
 
-Please run chinese/little_model/real_model/ernie-health-chinese/little_model_cc.py(little_model_hpi.py/little_model_suggestion.py) to train the chinese rating model for different chapters.
+For English
+Please run english/little_model/asse_model.py(hpi_model.py) to train the english rating model for different chapters.
