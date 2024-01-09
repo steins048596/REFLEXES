@@ -33,10 +33,14 @@ Train Chinese small model:
     python chinese/little_model/real_model/ernie-health-chinese/little_model_hpi.py 
     python chinese/little_model/real_model/ernie-health-chinese/little_model_suggestion.py
 
+The model will be saved in chinese/little_model/real_model/few_shot_try
+
 Train English small model:
 
     python english/little_model/asse_model.py
     python english/little_model/hpi_model.py
+
+The model will be saved in english/little_model
 
 ### Start the runtime framework
 
