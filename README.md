@@ -1,5 +1,14 @@
 # REFLEXSE
 a framework for clinical text generation
+### Environment Description:
+For Chinese:
+
+    pip install -r chinese/requirements.txt
+
+For english:
+
+    pip install -r chinese/requirements.txt
+
 ### folders and files:
 
 
