@@ -218,8 +218,8 @@ for epoch in range(1, epochs + 1):
         print("tempepoch:",epoch)
         print(dist)
         print(acc)
-        paddle.save(model.state_dict(), save_dir+"few_shot_try/xianbingshi.pdparams")
-        paddle.save(optimizer.state_dict(), save_dir+"few_shot_try/xianbingshi.pdopt")
+        paddle.save(model.state_dict(), save_dir+"few_shot_try/zhusu.pdparams")
+        paddle.save(optimizer.state_dict(), save_dir+"few_shot_try/zhusu.pdopt")
 #save_dir = ckpt_dir
 #model.save_pretrained(save_dir)
 #tokenizer.save_pretrained(save_dir)
