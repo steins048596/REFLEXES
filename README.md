@@ -15,7 +15,7 @@ Prepare environment for English experiment,please use the command:
 
 `/evaluation` Evaluation script, please use the command 
 
-    'bert-score -r data/ref.txt  -c new_experiment/test_eval.txt --lang zh' 
+    bert-score -r data/ref.txt  -c new_experiment/test_eval.txt --lang zh
 
 for Chinese bertscore after running 'evaluation.py'. For details, please see https://github.com/tiiiger/bert_score
 
