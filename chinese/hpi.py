@@ -5,7 +5,7 @@ import os
 #os.environ['http_proxy']="http://127.0.0.1:7892"
 #os.environ['https_proxy']="http://127.0.0.1:7892"
 import openai
-openai.api_key = "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"
+openai.api_key = ""
 import json
 import csv
 from collections import Counter
@@ -48,7 +48,7 @@ class ValueErnie(ErniePretrainedModel):
 MODEL_NAME2='ernie-health-chinese'
 tokenizer = paddlenlp.transformers.AutoTokenizer.from_pretrained(MODEL_NAME2)
 model = ValueErnie.from_pretrained('little_model/real_model/ernie-health-chinese/',dropout=0.1)
-load_layer_state_dict = paddle.load("little_model/real_model/xianbingshi.pdparams")
+load_layer_state_dict = paddle.load("little_model/real_model/few_shot_try/xianbingshi.pdparams")
 model.set_state_dict(load_layer_state_dict)
 
 
