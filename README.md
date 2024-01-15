@@ -1,4 +1,4 @@
-# REFLEXSE
+# REFLEXES
 a framework for clinical text generation
 ### Environment Description:
 Prepare environment for Chinese experiment,please use the command:
